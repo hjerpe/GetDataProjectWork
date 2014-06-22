@@ -32,4 +32,4 @@ The tasks of the script are outlied outlied as steps 0 to 6 commented in the cod
 6. Order this new tidy data set according to the first variable activity and rename the variables to more informative names by concatenating mean infront of each variable name.
 
 The data set formed from steps 5-6 is tidy since each variable forms a separate column and each observation forms a row.
-Lastly the above tidy data set and variable names are saved with names **meanTestTrain.csv** and **variableNames.txt** and uploaded to this repository.
+Lastly the above tidy data set and variable names are saved with names **meanTestTrain.csv** and **variableNames.txt** and uploaded to this repository <https://github.com/hjerpe/GetDataProjectWork>.

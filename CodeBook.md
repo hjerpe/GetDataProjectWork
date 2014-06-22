@@ -6,7 +6,7 @@ This is a text describing the data set regarding wearable computing, see this [a
 The text also describes a tidy data set which is outputted by the script **run_analysis.R** runned on this data set.
 
 ### The project data
-The above data for the project can be downloaded at <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip> and is also uploaded at this repository under the directory **SmartPhoneActivity**. For the project we are interested in all data measuring mean or standard deviation of the different features.
+The above data for the project can be downloaded at <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>. For the project we are interested in all data measuring mean or standard deviation of the different features.
 The data of interest consists of a group of 30 volunteers (subjects) who performs one of the different activities(labels)
 
 1. Walking
@@ -16,11 +16,11 @@ The data of interest consists of a group of 30 volunteers (subjects) who perform
 5. Standing
 6. Laying
 
-where different measures was performed with the smartphones embedded accelerometer and gyroscope, further the data was split into two groups where 70% of the volunteers was selected to generate training data and 30% to generate test data. For more details see the **README.txt** file at **SmartPhoneActivity/\UCI HAR Dataset/\README.txt**. 
+where different measures was performed with the smartphones embedded accelerometer and gyroscope, further the data was split into two groups where 70% of the volunteers was selected to generate training data and 30% to generate test data. For more details see the **README.txt** file at **Data1/SmartPhoneActivity/UCI HAR Dataset/README.txt**. 
 The data of interest in the above directory consists of the following files,
 
 **test/X_train.txt** data of size 7352 rows and 561 columns where each column corresponds to a feature specified at **features.txt** and each row corresponds to one volunteer(subject) performing one of the above activities(label) specified at **train/subject_train.txt** and **test/y_test.txt** respectively. Further the file **activity_labels.txt** is linking the labels at **test/y_test.txt** with the corresponding above activity(same encoding as in the above table). The descriptions for the **train.txt** files are equivalent.
-Information of the 561 different features is found at **SmartPhoneActivity/\UCI HAR Dataset/\features.txt**.
+Information of the 561 different features is found at **Data1/SmartPhoneActivity/UCI HAR Dataset/features.txt**.
 
 ### The tidy data output
 The tidy data set **meanTestTrain.csv** consists of the 81 variables found at **variableNames.txt**. The variables are formed by taking the mean of each variable grouped by volunteer(subject) and activity(label) where the values of the first and second variables are
@@ -29,4 +29,4 @@ The tidy data set **meanTestTrain.csv** consists of the 81 variables found at **
 - subjectid ranges from 1 to 30 corresponding to one of the  30 volunteers.
 
 The rest of the variables are in the manner 
-averagetimegravityaccmeanxcord meaning the average of the variable timegravityaccmeanxcord(see **SmartPhoneActivity/\UCI HAR Dataset\features.txt**) at this repository.
+averagetimegravityaccmeanxcord meaning the average of the variable timegravityaccmeanxcord(see **Data1/SmartPhoneActivity/UCI HAR Dataset/features.txt**) from this repository <https://github.com/hjerpe/GetDataProjectWork>.
