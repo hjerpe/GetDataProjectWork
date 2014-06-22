@@ -39,5 +39,5 @@ Thumbs.db
 #Data exists at repository
 #mentioned in README.md   
 ###########################
-Data1\SmartPhoneActivity\UCI/ HAR/ Dataset\test
-Data1\SmartPhoneActivity\UCI/ HAR/ Dataset\train
+Data1/SmartPhoneActivity/UCI\ HAR\ Dataset/test
+Data1/SmartPhoneActivity/UCI\ HAR\ Dataset/train
