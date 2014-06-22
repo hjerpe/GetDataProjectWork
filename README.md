@@ -20,7 +20,7 @@ The specification of the script **run_analysis.R** is
 - Appropriately labels the data set with descriptive variable names. 
 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-The tasks of the script are outlied outlied as steps 0 to 6 commented in the code. See **CodeBook.md** for information about the processed data set.
+The tasks of the script are outlied outlied as steps 0 to 6 commented in the code. See **CodeBook.md** in this repository for information about the processed data set.
 
 0. Read and download the data.
 1. Adjoin the test and training data to one table, after which each column corresponds to a feature and each row corresponds to a subject and activity in the adjoined table.
