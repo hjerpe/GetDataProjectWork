@@ -1,8 +1,5 @@
----
-title: "Project Work <br/> Getting and cleaning data <br/>"
-output: html_document
----
-## Transforming data into a tidy data set
+##Project Work <br/> Getting and cleaning data <br/>
+### Transforming data into a tidy data set
 This is a text explaining how the script run_analysis.R transforms a data set regarding wearable computing, see this [article](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/) into a tidy data set. The data set consists of measurments by accelerometers from Samsung Galaxy S smartphones. The data set and a full description can be found here
 <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>.
 

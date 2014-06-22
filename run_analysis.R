@@ -4,8 +4,8 @@
 # further analysis.
 
 # See the README.MD at the repository for details regarding this 
-# script, the data to be processed and the definition of a tidy 
-# data set.
+# script and the definition of a tidy data set, see CodeBook.md for 
+# information about processed the data set. 
 
 # The tasks of this script is structured with steps 0 to 6
 # covered in README.MD.

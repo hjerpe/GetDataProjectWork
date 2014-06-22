@@ -44,4 +44,4 @@ Data1/SmartPhoneActivity/UCI\ HAR\ Dataset/train
 
 # Html markdown generated files #
 #################################
-.html
+*.html
